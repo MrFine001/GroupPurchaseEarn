@@ -1,0 +1,27 @@
+//
+//  GroupPurchaseEarn-Prefix.pch
+//  GroupPurchaseEarn
+//
+//  Created by FineRui on 2017/1/25.
+//  Copyright © 2017年 FanRui. All rights reserved.
+//
+
+#ifndef GroupPurchaseEarn_Prefix_pch
+#define GroupPurchaseEarn_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "FxGlobal.h"
+#import "FxDefine.h"
+#import "FxUrlDefine.h"
+#import "FxJsonUtility.h"
+
+#endif
+#endif /* GroupPurchaseEarn_Prefix_pch */
